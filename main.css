@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
 }
 
 article {
@@ -18,7 +19,7 @@ section {
 }
 
 #phone {
-    border-right: blue 1px dotted;
+    border-right: red 1px dotted;
     float: left;
 }
 
@@ -27,10 +28,15 @@ section {
     margin-top: 30%;
 }
 
-#form {  
+#form {
     float: right;
-    padding: 20px;
+    padding: 5px;
     text-align: center;
+}
+
+.signup {
+    border: 1px solid green;
+    padding: 20px;
 }
 
 h1 {
@@ -41,21 +47,62 @@ h1 {
     width: 200px;
 }
 
+h2 {
+    color: grey;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+/* this covers both buttons */
 button {
     background-color: #3897f0;
     color: white;
+    font-size: 1.2em;
+    font-weight: 600;
     border: 1px solid transparent;
     width: 100%;
     height: 30px;
     border-radius: 5px;
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+/* form specific */
+input {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px 0;
+    border: 1px solid transparent;
+    background-color: rgba(220, 220, 220, 0.822);
 }
 
 /* everything else here */
 
+.terms {
+    padding: 0 20px;
+}
+
 .forusers {
-    border: 1px dotted blue;
+    border: 1px solid green;
+    padding: 20px;
 }
 
 .apps {
-    border: 1px dotted blue;
+    border: 1px dotted red;
+}
+
+.apps p {
+    padding-bottom: 10px;
+}
+
+.applinks {
+    width: 40%;
+    display: inline-block;
+
 }
