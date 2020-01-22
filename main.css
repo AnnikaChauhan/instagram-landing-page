@@ -6,8 +6,12 @@
     font-size: 12px;
 }
 
+body {
+    background-color: rgb(240, 240, 240);
+}
+
 article {
-    border: 1px solid black;
+    border: 1px solid transparent;
     margin: 50px auto;
     height: 750px;
     width: 750px;
@@ -19,13 +23,23 @@ section {
 }
 
 #phone {
-    border-right: red 1px dotted;
+    border-right: transparent 1px dotted;
     float: left;
 }
 
-#phone img {
+#iphone  {
     width: 100%;
     margin-top: 30%;
+    position: relative;
+}
+
+/* this will get the inner image - you need put all of the sample images in here and make the display none and have it change in the JS */
+
+#screensampleone {
+    position: absolute;
+    height: 350px;
+    left: 380px;
+    top: 245px;
 }
 
 #form {
@@ -35,8 +49,10 @@ section {
 }
 
 .signup {
-    border: 1px solid green;
-    padding: 20px;
+    border: 1px solid grey;
+    box-shadow: grey;
+    padding: 10px 30px;
+    background-color: white;
 }
 
 h1 {
@@ -67,9 +83,20 @@ button {
     margin: 10px 0;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 p {
     margin: 10px 0;
     font-size: 1.1em;
+}
+
+.strike {
+    text-decoration: line-through;
+    text-transform: uppercase;
+    font-weight: normal;
+    width: 100%;
 }
 
 /* form specific */
@@ -86,15 +113,27 @@ input {
 
 .terms {
     padding: 0 20px;
+    color: grey;
+}
+
+span {
+    font-weight: bold;
 }
 
 .forusers {
-    border: 1px solid green;
+    border: 1px solid grey;
+    box-shadow: grey;
     padding: 20px;
+    background-color: white;
+}
+
+.forusers a {
+    text-decoration: none;
+    color: #3897f0;
 }
 
 .apps {
-    border: 1px dotted red;
+    border: 1px dotted transparent;
 }
 
 .apps p {
