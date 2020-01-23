@@ -18,14 +18,15 @@ article {
 }
 
 section {
-    height: 100%;
+    /* height: 100%; */
     width: 50%;
 }
 
 #phone {
     border-right: transparent 1px dotted;
     float: left;
-    display: inline-block;
+    /* don't need the inline black as it's floating */
+    /* display: inline-block; */
     position: relative;
 }
 
