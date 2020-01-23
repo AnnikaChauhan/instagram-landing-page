@@ -31,7 +31,7 @@ section {
 
 #iphone  {
     width: 100%;
-    margin-top: 31%;
+    margin-top: 28%;
 }
 
 /* this will get the inner image - you need put all of the sample images in here and make the display none and have it change in the JS */
@@ -40,7 +40,7 @@ section {
     position: absolute;
     height: 350px;
     left: 124px;
-    top: 198px;
+    top: 187px;
     /* display: none; */
 }
 
