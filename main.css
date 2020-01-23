@@ -40,10 +40,9 @@ section {
     position: absolute;
     height: 350px;
     left: 124px;
-    top: 194px;
+    top: 198px;
     /* display: none; */
 }
-
 
 #form {
     float: right;
