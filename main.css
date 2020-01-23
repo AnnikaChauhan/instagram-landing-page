@@ -38,9 +38,9 @@ section {
 #screensampleone {
     position: absolute;
     height: 350px;
-    left: 380px;
+    left: 382px;
     top: 245px;
-    display: none;
+    /* display: none; */
 }
 
 #form {
