@@ -25,12 +25,13 @@ section {
 #phone {
     border-right: transparent 1px dotted;
     float: left;
+    display: inline-block;
+    position: relative;
 }
 
 #iphone  {
     width: 100%;
-    margin-top: 30%;
-    position: relative;
+    margin-top: 31%;
 }
 
 /* this will get the inner image - you need put all of the sample images in here and make the display none and have it change in the JS */
@@ -38,10 +39,15 @@ section {
 #screensampleone {
     position: absolute;
     height: 350px;
-    left: 382px;
-    top: 245px;
+    left: 124px;
+    top: 194px;
     /* display: none; */
 }
+
+#samplescreen img {
+    width: 100%;
+}
+
 
 #form {
     float: right;
@@ -58,6 +64,7 @@ section {
 
 h1 {
     text-align: center;
+    padding-top: 5px;
 }
 
 #logo {
@@ -115,6 +122,11 @@ input {
 
 .terms {
     padding: 0 20px;
+    color: grey;
+}
+
+.terms a {
+    text-decoration: none;
     color: grey;
 }
 
