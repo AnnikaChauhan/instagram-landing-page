@@ -18,19 +18,21 @@ article {
 }
 
 section {
-    height: 100%;
+    /* height: 100%; */
     width: 50%;
 }
 
 #phone {
     border-right: transparent 1px dotted;
     float: left;
+    /* don't need the inline black as it's floating */
+    /* display: inline-block; */
+    position: relative;
 }
 
 #iphone  {
     width: 100%;
-    margin-top: 30%;
-    position: relative;
+    margin-top: 28%;
 }
 
 /* this will get the inner image - you need put all of the sample images in here and make the display none and have it change in the JS */
@@ -38,9 +40,9 @@ section {
 #screensampleone {
     position: absolute;
     height: 350px;
-    left: 380px;
-    top: 245px;
-    display: none;
+    left: 124px;
+    top: 187px;
+    /* display: none; */
 }
 
 #form {
@@ -58,6 +60,7 @@ section {
 
 h1 {
     text-align: center;
+    padding-top: 5px;
 }
 
 #logo {
@@ -115,6 +118,11 @@ input {
 
 .terms {
     padding: 0 20px;
+    color: grey;
+}
+
+.terms a {
+    text-decoration: none;
     color: grey;
 }
 
