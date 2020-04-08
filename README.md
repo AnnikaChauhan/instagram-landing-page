@@ -1,5 +1,9 @@
 # Instagram Landing Page
-Lab to recreate the landing page for Instagram.com
+Lab to recreate the landing page for Instagram.com. This project was one of the first labs we completed independently at _nology (in week 2). Access to the live version is available [here](https://annikachauhan.github.io/instagram-landing-page/).
+
+This site is made very simply using HTML and CSS, it does not require any additional packages to run.
+
+Details of the task and instructions are below:
 
 ## Tasks
 
